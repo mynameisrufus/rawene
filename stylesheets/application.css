@@ -18,7 +18,6 @@ a:hover, a:active {
 #container { 
   background-color:#FFFFFF;
   padding: 20px;
-  width: 965px;
   margin: 0 auto;
 }
 
@@ -37,12 +36,11 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 nav#access {
   margin: 0 auto;
-  width: 965px;
   display: block;
 }
 
@@ -51,7 +49,7 @@ nav#access ul {
 }
 
 nav#access ul li {
-  padding:0 5px;
+  padding: 0px;
 }
 
 nav#access ul li + li {
@@ -70,15 +68,13 @@ nav#access ul li a:hover {
 
 nav#main ul {
   background-color: #D2D1E6;
-  height: 2em;
-  line-height: 2em;
-  margin: 0px 0px 20px
+  padding: 0px;
+  margin: 0px;
 }
 
 nav#main ul li a {
   display:block;
-  float:left;
-  padding:0 15px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -111,7 +107,6 @@ article .divider {
 article section {
   display: inline-block;
   vertical-align: top;
-  width: 740px;
 }
 
 article aside {
