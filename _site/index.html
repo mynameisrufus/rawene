@@ -1,73 +1,316 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Rawene getaway, food, rooms and much more</title>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content='SwrMhZ5V-Ff4twH0YBCuqGCfPbP3Il4EQlreZYbeNH4' name='google-site-verification'>
     <meta content='Rawene is a town on the south side of the Hokianga harbour, in Northland, New Zealand.' name='description'>
     <meta content='Accommodation Small Town Rawene Hokianga New Zealand Northland' name='keywords'>
-    <link href="/stylesheets/application.css?1376908357" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/colorbox.css?1376908357" media="screen" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-    <script src="/javascripts/jquery.colorbox-min.js?1376908357" type="text/javascript"></script>
-    <script src="/javascripts/application.js?1376908357" type="text/javascript"></script>
-    <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+
+    <title>Rāwene - Hokianga New Zealand</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta name="csrf-param" content="authenticity_token"/>
-    <meta name="csrf-token" content="pJwFS+SaHG0JquHTzEf04Rqw6+RayCd4O9olmQ+1zfE="/>
-  </head>
-  <body>
-    <div id='container'>
-      <header>
-        <h1>Welcome to Rawene</h1>
-      </header>
-      <nav id='main'>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/directions-to-rawene.html">Map and ferry</a></li>
-          <li><a href="/history-of-rawene.html">History</a></li>
-          <li><a href="/accommodation-in-rawene.html">Accommodation</a></li>
-          <li><a href="/pictures-of-rawene.html">Pictures</a></li>
-          <li><a href="/things-todo-in-rawene.html">Things to do</a></li>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#whats" onclick = $("#menu-close").click(); >What's in Rāwene</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
         </ul>
-      </nav>
-      <a href="http://thepostmasterslodgings.co.nz/?utm_source=rawene&amp;utm_medium=directory&amp;utm_campaign=bookings" class="advert" target="_blank"><img alt="The Postmasters Lodgings: Luxury Boutique Accomodation in the heart of Rawene" border="0" height="550" src="http://s3.amazonaws.com/rawene.co.nz/images/postmasters.jpg" title="The Postmasters Lodgings: Luxury Boutique Accomodation in the heart of Rawene" width="200" /></a>
-      <p>
-        Welcome to rawene.co.nz - a little information for visitors about Rawene.
-        If you're thinking of visiting New Zealand's far north,
-        then Rawene is an appealing and well-situated base for your stay. Rawene is a relaxed village on the
-        southern side of the Hokianga Harbour with some of the best accommodation in the area.
-      </p>
-      <p>
-        <a href="/accommodation-in-rawene.html">Accomodation in Rawene</a>
-        Rawene has accommodation to suit any budget and taste, from the luxury experience of the postmaster's lodgings
-        to the fantastic facilities at the motor camp. No matter where you stay you are guaranteed an ultra
-        relaxed atmosphere and fantastic far-north hospitality.
-      </p>
-      <p>
-        <a href="/things-todo-in-rawene.html">Things to do in Rawene and surrounding areas</a>
-        To the South are the giant sand dunes across from Opinoni and the Waipua Forest where you will find the last
-        great stands of the Kauri tree and the legendary Tane Mahut a . Inland is the Wairere Boulder Valley,
-        which is worth a look at for its truly unusual basalt boulders. There are fantastic coffee shops where you
-        can sit down and relax with a cappuccino, kayak in the Hokianga Harbour or simply take it easy and take in the
-        scenery at the far-north pace.
-      </p>
-      <p>
-        <a href="/history-of-rawene.html">History of Rawene</a>
-        Rawene and the Hokianga are steeped in both pre European Maori history and early New Zealand history. Take a
-        look at some artefacts found in Rawene and links to Hokianga history.
-      </p>
-      <p>
-        <a href="/directions-to-rawene.html">Directions to Rawene and the Ferry details</a>
-        Rawene is on the twin coast discovery trail, find out where it is and how not to miss it.
-      </p>
-      <p>
-        <a href="/pictures-of-rawene.html">Pictures of Rawene</a>
-      </p>
-      <p>
-        Browse through some pictures of Rawene and get a taste of the beauty and tranquillity.
-      </p>
-      <div class='clear'></div>
-    </div>
-  </body>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Rāwene</h1>
+            <h3>Revival</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Welcome!</h2>
+                    <p class="lead">
+                      A little information for visitors about Rawene.
+                      If you're thinking of visiting New Zealand's far north,
+                      then Rawene is an appealing and well-situated base for your stay. Rawene is a relaxed village on the
+                      southern side of the Hokianga Harbour with some of the best accommodation in the area.
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="whats" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>What's in Rāwene</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Sleep</strong>
+                                </h4>
+                                <p>
+                                  Rawene has accommodation to suit any budget and taste, from the luxury experience of the postmaster's lodgings
+                                  to the fantastic facilities at the motor camp. No matter where you stay you are guaranteed an ultra
+                                  relaxed atmosphere and fantastic far-north hospitality.
+                                </p>
+                                <a href="accommodation-in-rawene.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Eat</strong>
+                                </h4>
+                                <p>
+                                  Rawene is on the twin coast discovery trail, find out where it is and how not to miss it.
+                                </p>
+                                <a href="eating-in-rawene.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Things To Do</strong>
+                                </h4>
+                                <p>
+                                  To the South are the giant sand dunes across from Opinoni and the Waipua Forest where you will find the last
+                                  great stands of the Kauri tree and the legendary Tane Mahut a . Inland is the Wairere Boulder Valley,
+                                  which is worth a look at for its truly unusual basalt boulders. There are fantastic coffee shops where you
+                                  can sit down and relax with a cappuccino, kayak in the Hokianga Harbour or simply take it easy and take in the
+                                  scenery at the far-north pace.
+                                </p>
+                                <a href="things-todo-in-rawene.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>History</strong>
+                                </h4>
+                                <p>
+                                  Rawene and the Hokianga are steeped in both pre European Maori history and early New Zealand history. Take a
+                                  look at some artefacts found in Rawene and links to Hokianga history.
+                                </p>
+                                <a href="history-of-rawene.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Rāwene</h1>
+            <h2>Revival</h2>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Village</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="eating-in-rawene.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="things-todo-in-rawene.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="accommodation-in-rawene.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="history-of-rawene.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="directions-to-rawene.html" class="btn btn-lg btn-light">More help getting here</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52012.606702251214!2d173.51539641627662!3d-35.43528333601167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d095fab58fe5093%3A0x500ef6143a2b730!2sRawene+0473!5e0!3m2!1sen!2snz!4v1456206555472"
+        width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    </h4>
+                    <p>Rāwene<br>Hokianga, New Zealand</p>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/places/Things-to-do-in-Rawene-New-Zealand/110210025668266/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/search?vertical=default&q=rawene&src=typd"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
 </html>
