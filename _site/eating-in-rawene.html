@@ -31,30 +31,186 @@
 
 </head>
 <body>
-  <section>
-    <h3>
-      The Boatshed Café
-    </h3>
-    <p>
-      Provides an excellent selection of fresh food in a friendly café environment. Quality art and craft from local
-      artists and craftspeople on display and available for purchase.
-    </p>
-  </section>
-  <section>
-    <h3>
-      Hokianga Takeaways
-    </h3>
-    <p>
-      This spotless outfit profivides fantastic takeaway food, perfect for grabing a bit to eat as you wait for the
-      ferry or just chill out by the water
-    </p>
-  </section>
-  <section>
-    <h3>
-      Rawene Market
-    </h3>
-    <p>
-      First Saturday  of  Each  Month at the Rawene Town  Hall
-    </p>
-  </section>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+              <h3>Rāwene</h3>
+            </li>
+            <li>
+                <a href="#boatshed" onclick = $("#menu-close").click(); >The Boatshed Café </a>
+            </li>
+            <li>
+                <a href="#wardys" onclick = $("#menu-close").click(); >Wardys</a>
+            </li>
+            <li>
+                <a href="#takeaways" onclick = $("#menu-close").click(); >Hokianga Takeaways</a>
+            </li>
+            <li>
+                <a href="#market" onclick = $("#menu-close").click(); >Rawene Market</a>
+            </li>
+            <li>
+               <span class="fa-stack fa-1x">
+               <i class="fa fa-leaf fa-stack-1x"></i>
+            </li>
+            <li>
+                <a href="/#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="/accommodation-in-rawene.html">Sleep</a>
+            </li>
+            <li>
+                <a href="/eating-in-rawene.html">Eat</a>
+            </li>
+            <li>
+                <a href="/things-todo-in-rawene.html">Things to do</a>
+            </li>
+            <li>
+                <a href="/directions-to-rawene.html">Directions</a>
+            </li>
+            <li>
+                <a href="/history-of-rawene.html">History</a>
+            </li>
+            <li>
+                <a href="#social" onclick = $("#menu-close").click(); >Social</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Eat</h2>
+                    <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-cutlery fa-stack-1x text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="boatshed" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>The Boatshed Café</h2>
+                    <p class="lead">
+                    Provides an excellent selection of fresh food in a friendly
+                    café environment. Quality art and craft from local artists and
+                    craftspeople on display and available for purchase.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wardys" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Wardys</h2>
+                    <p class="lead">
+                    Wardys have all sorts of good things to tempt your appetite
+                    and help you keep fit and healthy... first class vegetables,
+                    fruit and selected meats. There's delicious sandwiches plus
+                    fruit drinks, Hokianga-made pre-frozen dinners, pies, cakes
+                    and other goodies.
+                    <a target="_blank" href="http://hokianga.com/wardys/">http://hokianga.com/wardys/</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="takeaways" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hokianga Takeaways</h2>
+                    <p class="lead">
+                    This spotless outfit profivides fantastic takeaway food,
+                    perfect for grabing a bit to eat as you wait for the ferry or
+                    just chill out by the water.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="market" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Rawene Market</h2>
+                    <p class="lead">
+                    First Saturday of Each Month at the Rawene Town Hall.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    </h4>
+                    <p>Rāwene<br>Hokianga, New Zealand</p>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/places/Things-to-do-in-Rawene-New-Zealand/110210025668266/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/search?vertical=default&q=rawene&src=typd"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</body>
 </html>
