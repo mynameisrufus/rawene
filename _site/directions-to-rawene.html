@@ -30,34 +30,205 @@
     <![endif]-->
 
 </head>
-  <body>
-    <div id='container'>
-      <header>
-        <h1>Welcome to Rawene</h1>
-      </header>
-      <nav id='main'>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/directions-to-rawene.html">Map and ferry</a></li>
-          <li><a href="/history-of-rawene.html">History</a></li>
-          <li><a href="/accommodation-in-rawene.html">Accommodation</a></li>
-          <li><a href="/pictures-of-rawene.html">Pictures</a></li>
-          <li><a href="/things-todo-in-rawene.html">Things to do</a></li>
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+              <h3>Rāwene</h3>
+            </li>
+            <li>
+                <a href="#boatshed" onclick = $("#menu-close").click(); >The Boatshed Café </a>
+            </li>
+            <li>
+                <a href="#wardys" onclick = $("#menu-close").click(); >Wardys</a>
+            </li>
+            <li>
+                <a href="#takeaways" onclick = $("#menu-close").click(); >Hokianga Takeaways</a>
+            </li>
+            <li>
+                <a href="#market" onclick = $("#menu-close").click(); >Rawene Market</a>
+            </li>
+            <li>
+               <span class="fa-stack fa-1x">
+               <i class="fa fa-leaf fa-stack-1x"></i>
+            </li>
+            <li>
+                <a href="/#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="/accommodation-in-rawene.html">Sleep</a>
+            </li>
+            <li>
+                <a href="/eating-in-rawene.html">Eat</a>
+            </li>
+            <li>
+                <a href="/things-todo-in-rawene.html">Things to do</a>
+            </li>
+            <li>
+                <a href="/directions-to-rawene.html">Directions</a>
+            </li>
+            <li>
+                <a href="/history-of-rawene.html">History</a>
+            </li>
+            <li>
+                <a href="#social" onclick = $("#menu-close").click(); >Social</a>
+            </li>
         </ul>
-      </nav>
-      <img alt="Ferry sign in Rawne" src="http://s3.amazonaws.com/rawene.co.nz/images/Rawenevehicleferrysignnorth.jpg" />
-      <p>
-        Rawene is on Northlands West Coast Twin Coast Discovery route, state highway 12. North of Dargaville and
-        the Waipula forest. South of Ninety Mile beach and West of the Bay-of Islands and Kaikohe.
-      </p>
-      <p>
-        HOKIANGA VEHICLE FERRY Timetable- The Hokianga Car Ferry leaves Rawene (the Southern side) every half hour
-        from 07:30 to 20:00 and crosses to THE RAWENE NARROWS (4 Km South of Kohokohu) in the North, linking state
-        highway 12. No bookings, cash only - the short 10 minute crossing is inexpensive.
-      </p>
-      <img alt="Ferry sign in Rawne" src="http://s3.amazonaws.com/rawene.co.nz/images/Rawenecarferryatdusk1.JPG" />
-      <img alt="Hokianga map" height="306" src="http://s3.amazonaws.com/rawene.co.nz/images/HokiangaMap.gif" width="320" />
-      <div class='clear'></div>
-    </div>
-  </body>
+    </nav>
+
+    <section class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Directions</h2>
+                    <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-map fa-stack-1x text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="boatshed" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hokianga Ferry</h2>
+                    <div>
+                      <span class="fa-stack fa-2x">
+                      <i class="fa fa-ship fa-stack-1x text-primary"></i>
+                    </div>
+                    <p class="lead">
+                    Hokianga Ferry Timetable and Charges
+                    <br/>
+                    <a target="_blank" href="https://www.fndc.govt.nz/services/roads-and-stormwater/hokianga-ferry-timetable">https://www.fndc.govt.nz/services/roads-and-stormwater/hokianga-ferry-timetable</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wardys" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>By Plane</h2>
+                    <div>
+                      <span class="fa-stack fa-2x">
+                      <i class="fa fa-plane fa-stack-1x text-primary"></i>
+                    </div>
+                    <p class="lead">
+                    One of the quickest and easiets ways to get to Rawene is
+                    cathing a 40 minutes flight from Auckland to the Bay of
+                    Islands airport then picking up a car and driving 45 minutes
+                    to Rawene.
+                    <br/>
+                    <a target="_blank" href="http://www.airnewzealand.com.au/destination-bay-of-islands">http://www.airnewzealand.com.au/destination-bay-of-islands</a>
+                    <br/>
+                    <a target="_blank" href="https://www.google.co.nz/#q=Bay+Of+Islands+Airport+car+rentall">https://www.google.co.nz/#q=Bay+Of+Islands+Airport+car+rental</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wardys" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>By Car</h2>
+                    <div>
+                      <span class="fa-stack fa-2x">
+                      <i class="fa fa-car fa-stack-1x text-primary"></i>
+                    </div>
+                    <p class="lead">
+                    If your comming from Auckland you can take the raod through
+                    the Waipoua Kauri Forest or through Whangarei and Kawakawa.
+                    Both trips take 3 hours and 45 minutes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wardys" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>By Bicycle</h2>
+                    <div>
+                      <span class="fa-stack fa-2x">
+                      <i class="fa fa-bicycle fa-stack-1x text-primary"></i>
+                    </div>
+                    <p class="lead">
+                    <a target="_blank" href="http://nzcycletrail.com/trails/far-north-cycleway/">http://nzcycletrail.com/trails/far-north-cycleway</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    </h4>
+                    <p>Rāwene<br>Hokianga, New Zealand</p>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/places/Things-to-do-in-Rawene-New-Zealand/110210025668266/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/search?vertical=default&q=rawene&src=typd"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</body>
 </html>
