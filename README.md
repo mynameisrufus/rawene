@@ -2,16 +2,16 @@
 
 ### Development
 
-Pushing updates to S3:
+Pushing updates to adonic:
 
 ```
-make publish
+yarn upload
 ```
 
 Running local webserver:
 
 ```
-make server
+yarn start
 ```
 
 ### Resources
