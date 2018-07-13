@@ -4,6 +4,6 @@
   },
   "scripts": {
     "start": "cd _site && python -m SimpleHTTPServer",
-    "upload": "adonic upload rawene.nz --path build --expire"
+    "upload": "adonic upload rawene.nz --path _site --expire"
   }
 }
