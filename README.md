@@ -2,16 +2,16 @@
 
 ### Development
 
-Pushing updates to adonic:
+Publish
 
 ```
-yarn upload
+make publish
 ```
 
-Running local webserver:
+Server
 
 ```
-yarn start
+make server
 ```
 
 ### Resources

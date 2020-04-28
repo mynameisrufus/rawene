@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "adonic": "^1.0.2"
-  },
-  "scripts": {
-    "start": "cd _site && python -m SimpleHTTPServer",
-    "upload": "adonic upload rawene.nz --path _site --expire"
-  }
-}
